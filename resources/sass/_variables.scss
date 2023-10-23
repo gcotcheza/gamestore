@@ -1,6 +1,12 @@
 // Body
 .body {
-    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    margin-top: auto;
 }
 .bg {
     // background-image: url("/img/game-console.jpg");
@@ -18,13 +24,15 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-$body-bg: #ffffff;
+// $body-bg: #eeeeee;
+$body-bg: #181735;
 
 // Global colors
-$brand-secondary: #120e36 !default;
-$brand-primary: #59ce9f !default;
-$brand-success: $brand-secondary !default;
-$brand-warning: #e79556 !default;
+$brand-secondary: #262553 !default;
+$brand-primary: #0082ff !default;
+// $brand-primary: #984ffd !default;
+$brand-success: #5be96a !default;
+$brand-warning: #f57969 !default;
 $brand-danger: $brand-primary !default;
 
 $gray-900: #0e1113 !default;
@@ -44,7 +52,8 @@ $theme-colors: (
     "warning": $brand-warning,
     "danger": $brand-danger,
     "dark": $gray-800,
-    "light": #f9f9f9,
+    "light": $gray-300,
+    "gray": $gray-500,
 ) !default;
 
 // Typography
@@ -52,13 +61,28 @@ $font-family-sans-serif: "Nunito", sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
 
+// //** Global font style & sizes
+// $base-font-color: $gray-800 !default;
+// $font-family-base: "Open Sans", helvetica, arial, sans-serif !default;
+$font-family-header: "Poppins", helvetica, arial, sans-serif !default;
+// $font-family-monospace: menlo, monaco, consolas, "Courier New", monospace !default;
+// $base-font-size: 1rem !default;
+
 // buttons
 $btn-link-hover-color: $brand-primary;
+
+$padding-small: 1.25rem !default; // 20px
+
+//** Headings
+$font-size-h1: 2rem !default;
+$font-size-h2: 1.75rem !default;
+$font-size-h3: 1.5rem !default;
+$font-size-h4: 1.25rem !default;
+$font-size-h5: 1rem !default;
 
 //navbar
 .cart-counter {
     border-radius: 10rem;
-    font-size: 0.7rem;
     min-width: 25px;
     position: absolute;
     right: -4px;
@@ -67,25 +91,25 @@ $btn-link-hover-color: $brand-primary;
 }
 
 .cart-icon-container {
-    padding-top: 1px;
+    padding-top: 0.6rem;
 }
 .badge {
-    height: 20px;
+    // height: 20px;
     color: $body-bg;
-    background: $brand-primary;
-    border-radius: 10rem;
+    background: $brand-success;
+    // border-radius: 10rem;
     font-size: 0.7rem;
-    min-width: 25px;
-    padding: 0.4rem;
+    // min-width: 25px;
+    // padding: 0.4rem;
 }
 
 nav ul li {
     margin-right: 30px;
 }
 
-// Contact
-.contact-details {
-    // border-radius: 5%;
+.nav-brand {
+    background-color: #363576;
+    color: #5f5f76;
 }
 
 // Images
@@ -98,5 +122,51 @@ nav ul li {
     .card-img-top {
         object-fit: cover;
         height: 170px;
+    }
+}
+
+// carousel
+$carousel-transition-duration: 0.6s;
+
+//** Global borders
+$border-width: 2px;
+$border-radius-xs: 15px;
+$border-radius-sm: 25px;
+$border-radius: 12px;
+
+// Accordion
+$accordion-button-bg: rgba($brand-secondary, 100);
+$accordion-button-color: rgba($gray-100, 100);
+$accordion-border-color: rgba($gray-300, 0.125);
+$accordion-button-active-bg: rgba($brand-secondary, 100);
+$accordion-button-active-color: rgba($gray-100, 100);
+$accordion-icon-color: rgba($brand-primary, 100);
+$accordion-icon-active-color: rgba($brand-primary, 100);
+
+// Badge
+$badge-padding-y: 0.75rem;
+$badge-padding-x: 0.5rem;
+
+.badge-pill {
+    margin-right: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+// .accordion-button:focus {
+//     box-shadow: none;
+//     border-color: rgba(0, 0, 0, 0.125);
+// }
+
+// $btn-focus-box-shadow: none;
+
+// $accordion-button-focus-box-shadow: $btn-focus-box-shadow;
+
+.info {
+    border-radius: 32px;
+    transition: border-color ease-in 300ms, height ease-in 300ms;
+    &:hover {
+        cursor: pointer;
+        border-color: $brand-primary;
     }
 }

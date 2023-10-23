@@ -5,7 +5,7 @@
     @include('sections.head')
 </head>
 
-<body>
+<body class="body">
     {{-- <div class="bg"> --}}
     @include('sections.navbar')
     <main>
