@@ -21,7 +21,7 @@
                                     class="game-image game-detail-image d-block w-100 rounded">
                             </div>
                             <div class="carousel-item">
-                                <img src="{{ asset('img/mario_kaart_4.jpeg') }}" alt="Mario kaart images"
+                                <img src="{{ asset('img/mariokart8.jpeg') }}" alt="Mario kaart images"
                                     class="game-image game-detail-image d-block w-100 rounded">
                             </div>
                         </div>
@@ -158,8 +158,8 @@
                         </div>
                     </div>
                     <button type="button" class="btn btn-primary m-3 mb-2">
-                        <span class="fw-bold fs-5 text-white">+</span>
-                        <i class="fa fa-shopping-basket fa-lg me-2 text-white"></i>
+                        <span class="fw-bold fs-5 text-white">+ Add to basket</span>
+                        {{-- <i class="fa fa-shopping-basket fa-lg me-2 text-white"></i> --}}
                     </button>
                 </div>
             </div>
