@@ -1,8 +1,14 @@
 /.phpunit.cache
 /node_modules
+/public/css
+/public/fonts
 /public/build
 /public/hot
+/public/img
+/public/js
 /public/storage
+/public/vendor
+/public/mix-manifest.json
 /storage/*.key
 /vendor
 .env
@@ -17,3 +23,4 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+
