@@ -1,0 +1,58 @@
+.cart-counter {
+    border-radius: 10rem;
+    min-width: 25px;
+    position: absolute;
+    right: -4px;
+    top: -6px;
+    padding: 0.2rem 0.2rem;
+    margin-top: 13px;
+}
+
+.cart-icon-container {
+    padding-top: 0.6rem;
+}
+
+.badge {
+    color: $body-bg;
+    background: $brand-success;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+.nav-brand {
+    background-color: #363576;
+    color: #5f5f76;
+}
+@media (max-width: 767px) {
+    nav ul {
+        margin-top: 3rem;
+        margin-left: -10rem;
+    }
+}
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+    content: "";
+    opacity: 0;
+    transition: all 0.2s;
+    height: 2px;
+    width: 100%;
+    background-color: $brand-warning;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.nav-link:hover::after {
+    opacity: 1;
+}
+
+.navbar-collapse {
+    transition: height 0s, background-color 300ms ease-in;
+    animation: fadeIn ease-in-out 300ms;
+}

@@ -10,5 +10,12 @@
 // Core
 @import "core/typography";
 
+// Components
+@import "components/navbar.scss";
+
 // Elements
+@import "elements/accordion.scss";
 @import "elements/images.scss";
+
+// Layouts
+@import "layouts/app.scss";

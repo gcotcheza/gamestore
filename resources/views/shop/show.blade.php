@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row my-5 py-5">
             <div class="col-md-6 mb-3">
-                <div class="card h-100 me-2 rounded">
+                <div class="card h-100 me-2 rounded border-0">
                     <div class="carousel carousel-dark slide" data-bs-ride="carousel" id="slider">
                         <div class="carousel-indicators">
                             <button class="active" data-bs-slide-to="0" data-bs-target="#slider"></button>
@@ -70,7 +70,7 @@
                                     Developer(s)
                                 </button>
                             </h2>
-                            <div class="accordion-collapse collapse" id="developers" data-bs-parent="#developer">
+                            <div class="accordion-collapse show collapse" id="developers" data-bs-parent="#developer">
                                 <div class="accordion-body bg-secondary">
                                     <ul class="list-group list-group-flush d-flex flex-row">
                                         <li class="list-group-item bg-secondary text-gray border-0">

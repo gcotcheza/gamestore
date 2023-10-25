@@ -4,25 +4,23 @@
     <section class="ftco-section">
         <div class="container">
             <div class="row justify-content-center mt-4">
-                <div class="col-md-6 mb-5 text-center">
+                <div class="col-md-6 mb-4 text-center">
                     <h2 class="text-light mt-4">Contact us</h2>
                 </div>
             </div>
             <div class="card-group">
-
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-10 col-md-12">
                     <div class="wrapper">
                         <div class="row justify-content-center">
                             <div class="col-lg-8 justify-content-center mb-5">
-
                                 <div class="row align-items-lg-stretch gy-3">
                                     <div class="col-md-4">
                                         <div class="card h-100 bg-secondary p-3">
                                             <div class="dbox w-100 text-center">
                                                 <div class="icon d-flex align-items-center justify-content-center">
-                                                    <span class="fa fa-map-marker text-primary"></span>
+                                                    <span class="fa fa-map-marker fa-2x text-primary"></span>
                                                 </div>
                                                 <div class="text">
                                                     <p>
@@ -50,7 +48,6 @@
                                                             +31 6 39 50 93 08
                                                         </a>
                                                     </p>
-
                                                 </div>
                                             </div>
                                         </div>
@@ -74,9 +71,7 @@
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
-
                             </div>
                             <div class="col-lg-8 my-5">
                                 <div class="contact-wrap">

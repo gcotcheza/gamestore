@@ -1,30 +1,4 @@
 // Body
-.body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.footer {
-    margin-top: auto;
-}
-.bg {
-    // background-image: url("/img/game-console.jpg");
-    // background-color: #1d1041;
-    background: rgb(54, 30, 118);
-    background: radial-gradient(
-        circle at top left,
-        #562dbd 0%,
-        #2a165b 40%,
-        #190b46 100%
-    );
-
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-// $body-bg: #eeeeee;
 $body-bg: #181735;
 
 // Global colors
@@ -61,11 +35,9 @@ $font-family-sans-serif: "Nunito", sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
 
-// //** Global font style & sizes
-// $base-font-color: $gray-800 !default;
+//** Global font style & sizes
 // $font-family-base: "Open Sans", helvetica, arial, sans-serif !default;
 $font-family-header: "Poppins", helvetica, arial, sans-serif !default;
-// $font-family-monospace: menlo, monaco, consolas, "Courier New", monospace !default;
 // $base-font-size: 1rem !default;
 
 // buttons
@@ -81,46 +53,10 @@ $font-size-h4: 1.25rem !default;
 $font-size-h5: 1rem !default;
 
 //navbar
-.cart-counter {
-    border-radius: 10rem;
-    min-width: 25px;
-    position: absolute;
-    right: -4px;
-    top: -6px;
-    padding: 0.2rem 0.2rem;
-    margin-top: 13px;
-}
 
-.cart-icon-container {
-    padding-top: 0.6rem;
-}
-.badge {
-    color: $body-bg;
-    background: $brand-success;
-    font-size: 0.1rem;
-}
-
-nav ul li {
-    margin-right: 30px;
-}
-
-.nav-brand {
-    background-color: #363576;
-    color: #5f5f76;
-}
-
-// Images
-
-.game-image {
-    object-fit: cover;
-}
-
-.shop {
-    .card-img-top {
-        object-fit: cover;
-        height: 170px;
-    }
-}
+$navbar-light-toggler-border-color: rgba($brand-secondary, 0.1);
+$navbar-light-active-color: rgba($brand-secondary, 0.9);
+$navbar-toggler-focus-width: 0px;
 
 // carousel
 $carousel-transition-duration: 0.6s;
@@ -144,20 +80,32 @@ $accordion-icon-active-color: rgba($brand-primary, 100);
 $badge-padding-y: 0.5rem;
 $badge-padding-x: 0.5rem;
 
-// .accordion-button:focus {
-//     box-shadow: none;
-//     border-color: rgba(0, 0, 0, 0.125);
-// }
+//** Grid
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px,
+) !default;
 
-// $btn-focus-box-shadow: none;
+// Negative margin
+$enable-negative-margins: true;
 
-// $accordion-button-focus-box-shadow: $btn-focus-box-shadow;
+// Spacer
+$spacer: 1rem !default;
+$spacers: (
+    0: 0,
+    1: $spacer * 0.25,
+    2: $spacer * 0.5,
+    3: $spacer,
+    4: $spacer * 1.5,
+    5: $spacer * 3,
+    6: $spacer * 6,
+    7: $spacer * 8,
+    8: $spacer * 10,
+) !default;
 
-.info {
-    border-radius: 32px;
-    transition: border-color ease-in 300ms, height ease-in 300ms;
-    &:hover {
-        cursor: pointer;
-        border-color: $brand-primary;
-    }
-}
+// Collapse
+// $transition-collapse: height ease-out 300ms;

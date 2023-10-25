@@ -3,3 +3,14 @@
     height: 600px;
     border-radius: $border-radius-xs;
 }
+
+.game-image {
+    object-fit: cover;
+}
+
+.shop {
+    .card-img-top {
+        object-fit: cover;
+        height: 170px;
+    }
+}

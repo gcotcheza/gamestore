@@ -4,7 +4,8 @@
 @section('content')
     <section class="shop py-5">
         <div class="px-lg-5 container mt-5 px-4">
-            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            <h1 class="text-light mb-5">Games</h1>
+            <div class="row gx-4 gx-lg-5 row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-center">
                 <div class="col mb-5">
                     <div class="card h-100 bg-secondary shadow-sm">
                         <a href="{{ url('/shop/1') }}" class="stretched-link">
