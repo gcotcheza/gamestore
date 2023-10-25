@@ -22,7 +22,7 @@
                                         <div class="card h-100 bg-secondary p-3">
                                             <div class="dbox w-100 text-center">
                                                 <div class="icon d-flex align-items-center justify-content-center">
-                                                    <span class="fa fa-map-marker fa-2x text-primary"></span>
+                                                    <span class="fa fa-map-marker text-primary"></span>
                                                 </div>
                                                 <div class="text">
                                                     <p>

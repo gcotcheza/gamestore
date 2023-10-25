@@ -87,20 +87,17 @@ $font-size-h5: 1rem !default;
     position: absolute;
     right: -4px;
     top: -6px;
-    padding: 0.4rem 0.4rem;
+    padding: 0.2rem 0.2rem;
+    margin-top: 13px;
 }
 
 .cart-icon-container {
     padding-top: 0.6rem;
 }
 .badge {
-    // height: 20px;
     color: $body-bg;
     background: $brand-success;
-    // border-radius: 10rem;
-    font-size: 0.7rem;
-    // min-width: 25px;
-    // padding: 0.4rem;
+    font-size: 0.1rem;
 }
 
 nav ul li {
@@ -144,14 +141,8 @@ $accordion-icon-color: rgba($brand-primary, 100);
 $accordion-icon-active-color: rgba($brand-primary, 100);
 
 // Badge
-$badge-padding-y: 0.75rem;
+$badge-padding-y: 0.5rem;
 $badge-padding-x: 0.5rem;
-
-.badge-pill {
-    margin-right: 10px;
-    text-align: center;
-    align-items: center;
-}
 
 // .accordion-button:focus {
 //     box-shadow: none;

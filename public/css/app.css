@@ -25,7 +25,8 @@
   position: absolute;
   right: -4px;
   top: -6px;
-  padding: 0.4rem 0.4rem;
+  padding: 0.2rem 0.2rem;
+  margin-top: 13px;
 }
 
 .cart-icon-container {
@@ -35,7 +36,7 @@
 .badge {
   color: #181735;
   background: #5be96a;
-  font-size: 0.7rem;
+  font-size: 0.1rem;
 }
 
 nav ul li {
@@ -56,12 +57,6 @@ nav ul li {
   -o-object-fit: cover;
      object-fit: cover;
   height: 170px;
-}
-
-.badge-pill {
-  margin-right: 10px;
-  text-align: center;
-  align-items: center;
 }
 
 .info {
@@ -4859,7 +4854,7 @@ textarea.form-control-lg {
 
 .badge {
   --bs-badge-padding-x: 0.5rem;
-  --bs-badge-padding-y: 0.75rem;
+  --bs-badge-padding-y: 0.5rem;
   --bs-badge-font-size: 0.75em;
   --bs-badge-font-weight: 700;
   --bs-badge-color: #fff;

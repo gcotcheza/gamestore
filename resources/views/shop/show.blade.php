@@ -49,16 +49,16 @@
                         action-packed, and wildly entertaining multiplayer mayhem!
                     </p>
                     <div class="text-light text-gray mb-3 text-start">
-                        <i class="fa fa-square text-primary me-2"></i>
+                        <i class="fa fa-square text-success me-2"></i>
                         <span class="fw-bold fs-6">Publisher: </span>
                         <span>Nintendo</span>
                     </div>
                     <div class="text-light text-gray mb-3 text-start">
-                        <i class="fa fa-square text-primary me-2"></i>
+                        <i class="fa fa-square text-success me-2"></i>
                         <span class="fw-boldtext-gray">Release date: 10 February, 2023</span>
                     </div>
                     <div class="text-light text-gray mb-3 text-start">
-                        <i class="fa fa-square text-primary me-2"></i>
+                        <i class="fa fa-square text-success me-2"></i>
                         <span class="fw-bold fs-6">Mode: </span>
                         <span>Single-player</span>
                     </div>

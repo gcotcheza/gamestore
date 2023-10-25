@@ -23,7 +23,7 @@
             <input class="form-control me-2 bg-white" type="search" placeholder="Search" aria-label="Search">
         </form>
         <div class="d-flex align-items-center position-relative cart-icon-container pr-1">
-            <i class="fa fa-shopping-basket fa-2x me-2"></i>
+            <i class="fa fa-shopping-basket fa-2x me-2 py-2"></i>
             <span class="cart-counter badge fw-bold text-dark">0</span>
         </div>
     </div>
