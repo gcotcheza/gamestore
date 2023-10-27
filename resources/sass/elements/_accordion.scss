@@ -1,0 +1,8 @@
+.info {
+    border-radius: 32px;
+    transition: border-color ease-in 300ms, height ease-in 300ms;
+    &:hover {
+        cursor: pointer;
+        border-color: $brand-primary;
+    }
+}

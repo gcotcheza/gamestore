@@ -22,4 +22,3 @@ Route::resource('/shop', ShopController::class)->only(['index', 'show']);
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
-
