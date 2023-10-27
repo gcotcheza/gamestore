@@ -2,14 +2,17 @@
 
 namespace App\Models;
 
+use Spatie\Image\Manipulations;
 use Illuminate\Database\Eloquent\Model;
+use Spatie\MediaLibrary\InteractsWithMedia;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class Game extends Model
 {
-    use HasFactory;
+    use HasFactory,InteractsWithMedia;
 
     protected $fillable = [
         'title',
@@ -57,5 +60,15 @@ class Game extends Model
     public function genres(): BelongsToMany
     {
         return $this->belongsToMany(Genre::class);
+    }
+
+    /**
+     * Register the media collections.
+     */
+    public function registerMediaConversions(Media $media = null): void
+    {
+        $this->addMediaConversion('preview')
+            ->fit(Manipulations::FIT_CROP, 300, 300)
+            ->nonQueued();
     }
 }

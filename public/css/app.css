@@ -14453,9 +14453,13 @@ nav ul li {
   opacity: 1;
 }
 
-.navbar-collapse {
-  transition: height 0s, background-color 300ms ease-in;
-  animation: fadeIn ease-in-out 300ms;
+.navbar {
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-sticky {
+  opacity: 0.95;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .info {
@@ -14486,7 +14490,7 @@ nav ul li {
 }
 
 .body {
-  min-height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
 }
@@ -14502,4 +14506,14 @@ nav ul li {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.main-container {
+  position: relative;
+  padding: 1rem;
+}
+@media (min-width: 992px) {
+  .main-container {
+    padding: 2rem;
+  }
 }

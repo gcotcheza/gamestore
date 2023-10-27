@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md nav-brand sticky-top text-white">
+<nav class="navbar navbar-sticky navbar-expand-md nav-brand sticky-top text-white">
     <div class="container">
         <div class="d-flex justify-content-between w-100">
             <div class="navigation d-flex justify-content-start">

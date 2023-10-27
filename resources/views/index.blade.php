@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row py-lg-5">
                 <div class="col-lg-6 col-md-8 mx-auto">
-                    <h1 class="fw-light text-light">Welcome to GameStore</h1>
+                    <h1 id="typing-text" class="fw-light text-light">Welcome to GameStore</h1>
                     <p class="lead text-light">
                         Level up your gaming experience with us! At GameStore, we're more than just a store; we're
                         your ultimate destination for all things gaming. Whether you're a hardcore gamer, a casual player,

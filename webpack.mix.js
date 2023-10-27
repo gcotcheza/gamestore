@@ -11,9 +11,13 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js').sass('resources/sass/app.scss', 'public/css').options({
-  processCssUrls: false,
-});
+mix.js('resources/js/app.js', 'public/js')
+  .sass('resources/sass/app.scss', 'public/css')
+  .options({ processCssUrls: false })
+  .vue();
+
+// mix.copyDirectory('resources/assets/fonts', 'public/fonts');
+// mix.copyDirectory('resources/assets/images', 'public/images');
 
 mix.copyDirectory('resources/assets/img', 'public/img');
 // mix.copyDirectory('resources/assets/fonts', 'public/fonts');
