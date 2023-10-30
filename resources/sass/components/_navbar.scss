@@ -52,7 +52,11 @@ nav ul li {
     opacity: 1;
 }
 
-.navbar-collapse {
-    transition: height 0s, background-color 300ms ease-in;
-    animation: fadeIn ease-in-out 300ms;
+.navbar {
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar-sticky {
+    opacity: 0.95;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
