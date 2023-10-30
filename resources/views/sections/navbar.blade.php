@@ -1,4 +1,4 @@
-<nav class="navbar navbar-sticky navbar-expand-md nav-brand sticky-top text-white">
+<nav class="navbar navbar-sticky navbar-expand-md nav-brand navbar-dark sticky-top text-white">
     <div class="container">
         <div class="d-flex justify-content-between w-100">
             <div class="navigation d-flex justify-content-start">
@@ -18,7 +18,11 @@
                                 <a class="nav-link fw-bold fs-5 text-light mr-10" href="{{ url('/') }}">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link fw-bold fs-5 text-light" href="{{ url('shop') }}">Shop</a>
+                                <a class="nav-link fw-bold fs-5 text-light" href="{{ url('shop') }}">Games</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold fs-5 text-light" href="{{ url('coming-soon') }}">Coming
+                                    Soon</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link fw-bold fs-5 text-light" href="{{ url('contact') }}">Contact</a>

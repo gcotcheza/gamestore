@@ -14489,6 +14489,12 @@ nav ul li {
   height: 170px;
 }
 
+.img-coming-soon {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
+}
+
 .body {
   height: auto;
   display: flex;
