@@ -22,9 +22,7 @@
             </div>
             <div class="col-lg-2 offset-lg-1">
                 <h5 class="pl-lg-4 text-light col-md-text-center mt-4">ABOUT</h5>
-                <ul class="list-unstyled pl-lg-4">
-                    <span class="text-light small">A wide selection of video games, consoles, and gaming gears.</span>
-                </ul>
+                <span class="text-light small">A wide selection of video games, consoles, and gaming gears.</span>
             </div>
             <div class="col-lg-2 offset-lg-1 mt-4">
                 <div class="text-lg-right">

@@ -14492,7 +14492,15 @@ nav ul li {
 .img-coming-soon {
   -o-object-fit: cover;
      object-fit: cover;
-  height: 200px;
+  height: 100%;
+}
+
+.card-coming-soon {
+  height: 260px;
+}
+
+.card {
+  overflow: hidden;
 }
 
 .body {
