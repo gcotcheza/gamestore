@@ -1,0 +1,5 @@
+.card-coming-soon {
+    @media (min-width: map-get($grid-breakpoints, md)) {
+        height: 260px;
+    }
+}

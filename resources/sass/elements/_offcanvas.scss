@@ -1,0 +1,18 @@
+.text-reset {
+    color: $gray-300;
+}
+
+.offcanvas {
+    @media (min-width: map-get($grid-breakpoints, md)) {
+        $offcanvas-horizontal-width: 400px;
+    }
+}
+
+.card-background {
+    background-color: #444376;
+}
+
+.quantity {
+    border: 1px solid;
+    border-color: $gray-800;
+}

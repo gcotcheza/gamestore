@@ -72,7 +72,7 @@
                             </h2>
                             <div class="accordion-collapse show collapse" id="developers" data-bs-parent="#developer">
                                 <div class="accordion-body bg-secondary">
-                                    <ul class="list-group list-group-flush d-flex flex-row">
+                                    <ul class="list-group list-group-flush d-flex flex-row text-start">
                                         <li class="list-group-item bg-secondary text-gray border-0">
                                             <i class="fa fa-square text-warning me-1"></i>Nintendo Entertainment Analysis &
                                             Development (EAD)

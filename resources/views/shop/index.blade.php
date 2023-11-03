@@ -27,7 +27,7 @@
                         <div class="card-footer border-top-0 bg-transparent p-4 pt-0">
                             <div class="text-center">
                                 <button type="button" class="btn btn-outline-primary text-white">
-                                    <span class="fw-bold fs-5">+</span>
+                                    <span class="fw-bold fs-5">+ </span>
                                     <i class="fa fa-shopping-basket fa-lg me-2"></i>
                                 </button>
                             </div>
@@ -35,9 +35,10 @@
                     </div>
                 </div>
                 <div class="col mb-5">
-                    <div class="card h-100 bg-secondary shadow">
+                    <div class="card h-100 bg-secondary position-relative shadow">
                         <!-- Sale badge-->
-                        <div class="badge bg-dark position-absolute text-white" style="top: 0.5rem; right: 0.5rem">Sale
+                        <div class="badge bg-warning position-absolute fs-5 start-100 translate-middle top-0 text-white">
+                            Sale
                         </div>
                         <a href="{{ url('/shop/1') }}" class="stretched-link">
                             <img class="card-img-top" src="{{ asset('img/grand_theft_auto.png') }}"
@@ -61,7 +62,7 @@
                         <div class="card-footer border-top-0 bg-transparent p-4 pt-0">
                             <div class="text-center">
                                 <button type="button" class="btn btn-outline-primary text-white">
-                                    <span class="fw-bold fs-5">+</span>
+                                    <span class="fw-bold fs-5">+ </span>
                                     <i class="fa fa-shopping-basket fa-lg me-2"></i>
                                 </button>
                             </div>
@@ -90,7 +91,7 @@
                         </div>
                         <div class="card-footer border-top-0 bg-transparent p-4 pt-0">
                             <div class="text-center"> <button type="button" class="btn btn-outline-primary text-white">
-                                    <span class="fw-bold fs-5">+</span>
+                                    <span class="fw-bold fs-5">+ </span>
                                     <i class="fa fa-shopping-basket fa-lg me-2"></i>
                                 </button>
                             </div>
@@ -98,9 +99,9 @@
                     </div>
                 </div>
                 <div class="col mb-5">
-                    <div class="card h-100 bg-secondary shadow">
-                        <!-- Sale badge-->
-                        <div class="badge bg-dark position-absolute text-white" style="top: 0.5rem; right: 0.5rem">Sale
+                    <div class="card h-100 bg-secondary position-relative shadow">
+                        <div class="badge bg-warning position-absolute fs-5 start-100 translate-middle top-0 text-white">
+                            Sale
                         </div>
                         <img class="card-img-top" src="{{ asset('img/ocarina_of_time.png') }}" alt="..." />
                         <div class="card-body p-4">
@@ -120,7 +121,7 @@
                         <div class="card-footer border-top-0 bg-transparent p-4 pt-0">
                             <div class="text-center">
                                 <button type="button" class="btn btn-outline-primary text-white">
-                                    <span class="fw-bold fs-5">+</span>
+                                    <span class="fw-bold fs-5">+ </span>
                                     <i class="fa fa-shopping-basket fa-lg me-2"></i>
                                 </button>
                             </div>
@@ -147,7 +148,7 @@
                         <div class="card-footer border-top-0 bg-transparent p-4 pt-0">
                             <div class="text-center">
                                 <button type="button" class="btn btn-outline-primary text-white">
-                                    <span class="fw-bold fs-5">+</span>
+                                    <span class="fw-bold fs-5">+ </span>
                                     <i class="fa fa-shopping-basket fa-lg me-2"></i>
                                 </button>
                             </div>
@@ -155,9 +156,10 @@
                     </div>
                 </div>
                 <div class="col mb-5">
-                    <div class="card h-100 bg-secondary shadow">
+                    <div class="card h-100 bg-secondary position-relative shadow">
                         <!-- Sale badge-->
-                        <div class="badge bg-dark position-absolute fs-5 text-white" style="top: 0.5rem; right: 0.5rem">
+                        <div
+                            class="badge bg-warning position-absolute fs-5 start-100 translate-middle top-0 text-white text-white">
                             Sale
                         </div>
                         <img class="card-img-top" src="{{ asset('img/super_mario_world.png') }}"
@@ -179,7 +181,7 @@
                         <div class="card-footer border-top-0 bg-transparent p-4 pt-0">
                             <div class="text-center">
                                 <button type="button" class="btn btn-outline-primary text-white">
-                                    <span class="fw-bold fs-5">+</span>
+                                    <span class="fw-bold fs-5">+ </span>
                                     <i class="fa fa-shopping-basket fa-lg me-2"></i>
                                 </button>
                             </div>
@@ -187,9 +189,10 @@
                     </div>
                 </div>
                 <div class="col mb-5">
-                    <div class="card h-100 bg-secondary shadow">
+                    <div class="card h-100 bg-secondary position-relative shadow">
                         <!-- Sale badge-->
-                        <div class="badge bg-dark position-absolute text-white" style="top: 0.5rem; right: 0.5rem">Sale
+                        <div class="badge bg-warning position-absolute fs-5 start-100 translate-middle top-0 text-white">
+                            Sale
                         </div>
                         <img class="card-img-top" src="{{ asset('img/half_life_alynx.webp') }}" alt="..." />
                         <div class="card-body p-4">
@@ -210,7 +213,7 @@
                         <div class="card-footer border-top-0 bg-transparent p-4 pt-0">
                             <div class="text-center">
                                 <button type="button" class="btn btn-outline-primary text-white">
-                                    <span class="fw-bold fs-5">+</span>
+                                    <span class="fw-bold fs-5">+ </span>
                                     <i class="fa fa-shopping-basket fa-lg me-2"></i>
                                 </button>
                             </div>
@@ -237,7 +240,7 @@
                         <div class="card-footer border-top-0 bg-transparent p-4 pt-0">
                             <div class="text-center">
                                 <button type="button" class="btn btn-outline-primary text-white">
-                                    <span class="fw-bold fs-5">+</span>
+                                    <span class="fw-bold fs-5">+ </span>
                                     <i class="fa fa-shopping-basket fa-lg me-2"></i>
                                 </button>
                             </div>
@@ -245,6 +248,35 @@
                     </div>
                 </div>
             </div>
+            {{-- <div class="row">
+                <div class="bg-secondary col-2 rounded">
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination mb-0">
+                            <li class="page-item me-0">
+                                <a class="page-link text-light bg-secondary fs-3 border-0 text-center" href="#"
+                                    aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item me-0"><a
+                                    class="page-link fs-4 text-light me-1 rounded border-0 bg-transparent text-center"
+                                    href="#">1</a></li>
+                            <li class="page-item me-0"><a
+                                    class="page-link fs-4 text-light bg-primary text-gray me-1 rounded border-0 text-center"
+                                    href="#">2</a></li>
+                            <li class="page-item me-0"><a
+                                    class="page-link fs-4 text-light bg-secondary text-gray me-1 rounded border-0 text-center"
+                                    href="#">3</a></li>
+                            <li class="page-item me-0">
+                                <a class="page-link text-light fs-3 bg-secondary border-0 py-0 text-center" href="#"
+                                    aria-label="Next">
+                                    <span class="text-center" aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div> --}}
         </div>
     </section>
 
