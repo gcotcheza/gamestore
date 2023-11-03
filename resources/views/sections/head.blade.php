@@ -12,3 +12,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Poppins:wght@700&display=swap"
     rel="stylesheet">
+
+<!-- Favicon -->
+<link rel="icon" href="{{ asset('img/icon.svg') }}">

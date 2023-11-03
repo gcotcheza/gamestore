@@ -1,6 +1,7 @@
 {
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
+    "/img/avatar.jpeg": "/img/avatar.jpeg",
     "/img/avatar_1.jpg": "/img/avatar_1.jpg",
     "/img/avatar_frontiers_of_pandora.jpeg": "/img/avatar_frontiers_of_pandora.jpeg",
     "/img/bioshock.webp": "/img/bioshock.webp",
@@ -19,6 +20,7 @@
     "/img/grand_theft_auto_five.webp": "/img/grand_theft_auto_five.webp",
     "/img/half_life.webp": "/img/half_life.webp",
     "/img/half_life_alynx.webp": "/img/half_life_alynx.webp",
+    "/img/icon.svg": "/img/icon.svg",
     "/img/legend_of_zelda_a_link_to_the_past.webp": "/img/legend_of_zelda_a_link_to_the_past.webp",
     "/img/logo.svg": "/img/logo.svg",
     "/img/mario_kaart.png": "/img/mario_kaart.png",
@@ -26,11 +28,14 @@
     "/img/mario_kaart_3.webp": "/img/mario_kaart_3.webp",
     "/img/mario_kaart_4.jpeg": "/img/mario_kaart_4.jpeg",
     "/img/mario_kart.webp": "/img/mario_kart.webp",
+    "/img/mario_thumbnail.jpg": "/img/mario_thumbnail.jpg",
     "/img/mariokart8.jpeg": "/img/mariokart8.jpeg",
     "/img/metal_gear_solid_3_snake_eater.webp": "/img/metal_gear_solid_3_snake_eater.webp",
     "/img/ocarina_of_time.png": "/img/ocarina_of_time.png",
     "/img/ocarina_of_time.webp": "/img/ocarina_of_time.webp",
     "/img/portal_2.webp": "/img/portal_2.webp",
+    "/img/prince.jpeg": "/img/prince.jpeg",
+    "/img/prince.webp": "/img/prince.webp",
     "/img/prince_of_persia.jpg": "/img/prince_of_persia.jpg",
     "/img/prince_of_persia_the_lost_crown.jpeg": "/img/prince_of_persia_the_lost_crown.jpeg",
     "/img/red_dead_redemption2.png": "/img/red_dead_redemption2.png",
@@ -61,5 +66,6 @@
     "/img/thelegendofzeldabreathofthewild.png": "/img/thelegendofzeldabreathofthewild.png",
     "/img/thelegendofzeldabreathofthewild.webp": "/img/thelegendofzeldabreathofthewild.webp",
     "/img/undertale.webp": "/img/undertale.webp",
-    "/img/yohanne.webp": "/img/yohanne.webp"
+    "/img/yohanne.webp": "/img/yohanne.webp",
+    "/img/zelda_thumbnail.jpeg": "/img/zelda_thumbnail.jpeg"
 }

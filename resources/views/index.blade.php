@@ -54,7 +54,7 @@
                                 class="card-footer d-flex justify-content-between align-items-center border-0 bg-transparent p-0">
                                 <span class="fs-4 fw-bold">&euro; 39,99</span>
                                 <button type="button" class="btn btn-outline-primary">
-                                    <span class="fw-bold fs-5 text-white">+</span>
+                                    <span class="fw-bold fs-5 text-white">+ </span>
                                     <i class="fa fa-shopping-basket fa-lg me-2 text-white"></i>
                                 </button>
                             </div>
@@ -77,7 +77,7 @@
                             <div class="card-footer d-flex justify-content-between border-0 bg-transparent p-0">
                                 <span class="fs-4 fw-bold">&euro; 29,99</span>
                                 <button type="button" class="btn btn-outline-primary">
-                                    <span class="fw-bold fs-5 text-white">+</span>
+                                    <span class="fw-bold fs-5 text-white">+ </span>
                                     <i class="fa fa-shopping-basket fa-lg me-2 text-white"></i>
                                 </button>
                             </div>
@@ -103,7 +103,7 @@
                                 class="card-footer d-flex justify-content-between align-items-center border-0 bg-transparent p-0">
                                 <span class="fs-4 fw-bold">&euro; 35,99</span>
                                 <button type="button" class="btn btn-outline-primary">
-                                    <span class="fw-bold fs-5 text-white">+</span>
+                                    <span class="fw-bold fs-5 text-white">+ </span>
                                     <i class="fa fa-shopping-basket fa-lg me-2 text-white"></i>
                                 </button>
                             </div>

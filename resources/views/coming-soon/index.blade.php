@@ -11,7 +11,7 @@
         </div>
         <div class="coming-soon-feature bg-secondary rounded-3 mb-5 p-4">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 mb-3">
                     <div class="card border-0">
                         <img src="{{ asset('img/tears_of_kingdom.jpeg') }}" class="img-fluid coming-soon-img rounded" />
                     </div>
@@ -21,7 +21,7 @@
                         <span class="text-uppercase mb-3">Coming soon
                             <i class="fa fa-fire text-warning ms-1" aria-hidden="true"></i>
                         </span>
-                        <h4 class="uppercase">The new Legend of Zelda</h4>
+                        <h4>The new Legend of Zelda</h4>
                         <p>The new legend of zelda, <span class="fw-bolder text-white">Tears of the
                                 kingdom</span> is coming
                             soon!</p>
@@ -60,7 +60,7 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <span
-                                        class="text-uppercase text-sm-center text-xs-center text-lg-start my-2 mb-3 ms-2">Coming
+                                        class="text-uppercase text-sm-center text-xs-center text-lg-start my-2 mb-3">Coming
                                         soon
                                         <i class="fa fa-fire text-warning ms-1" aria-hidden="true"></i>
                                     </span>
@@ -76,13 +76,13 @@
                     <div class="card align-items-stretch bg-secondary card-coming-soon rounded-3 text-light mb-4">
                         <div class="row g-0 h-100">
                             <div class="col-md-4">
-                                <img src="{{ asset('img/avatar_frontiers_of_pandora.jpeg') }}"
-                                    class="img-fluid img-coming-soon rounded-start" alt="Star Ocean: The Second Story R">
+                                <img src="{{ asset('img/avatar.jpeg') }}" class="img-fluid img-coming-soon rounded-start"
+                                    alt="Star Ocean: The Second Story R">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <span
-                                        class="text-uppercase text-sm-center text-xs-center text-lg-start my-2 mb-3 ms-2">Coming
+                                        class="text-uppercase text-sm-center text-xs-center text-lg-start my-2 mb-3">Coming
                                         soon
                                         <i class="fa fa-fire text-warning ms-1" aria-hidden="true"></i>
                                     </span>
@@ -101,13 +101,13 @@
                     <div class="card align-items-stretch bg-secondary card-coming-soon rounded-3 text-light mb-4">
                         <div class="row g-0 h-100">
                             <div class="col-md-4">
-                                <img src="{{ asset('img/prince_of_persia_the_lost_crown.jpeg') }}"
-                                    class="img-fluid img-coming-soon rounded-start" alt="Prince of Persia: The Lost Crown">
+                                <img src="{{ asset('img/prince.webp') }}" class="img-fluid img-coming-soon rounded-start"
+                                    alt="Prince of Persia: The Lost Crown">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <span
-                                        class="text-uppercase text-sm-center text-xs-center text-lg-start my-2 mb-3 ms-2">Coming
+                                        class="text-uppercase text-sm-center text-xs-center text-lg-start my-2 mb-3">Coming
                                         soon
                                         <i class="fa fa-fire text-warning ms-1" aria-hidden="true"></i>
                                     </span>
@@ -131,7 +131,7 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <span
-                                        class="text-uppercase text-sm-center text-xs-center text-lg-start my-2 mb-3 ms-2">Coming
+                                        class="text-uppercase text-sm-center text-xs-center text-lg-start my-2 mb-3">Coming
                                         soon
                                         <i class="fa fa-fire text-warning ms-1" aria-hidden="true"></i>
                                     </span>
@@ -143,7 +143,7 @@
                                         the planet. New
                                         adventure await in a vibrant and vast world – sprint across grassy plains on a
                                         Chocobo
-                                        and explore expansive environments
+                                        and explore expansive environments.
                                     </p>
                                 </div>
                             </div>
@@ -162,14 +162,14 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <span
-                                        class="text-uppercase text-sm-center text-xs-center text-lg-start my-2 mb-3 ms-2">Coming
+                                        class="text-uppercase text-sm-center text-xs-center text-lg-start my-2 mb-3">Coming
                                         soon
                                         <i class="fa fa-fire text-warning ms-1" aria-hidden="true"></i>
                                     </span>
                                     <h5 class="card-title lh-base py-3">Marvel’s Spider-Man 2</h5>
                                     <p class="card-text">Experience an original Marvel’s Spider-Man single player
                                         story. Feel the true power of Spider-Man in your hands with deeply immersive
-                                        adaptive triggers and haptic feedback features
+                                        adaptive triggers and haptic feedback features.
                                     </p>
                                 </div>
                             </div>
@@ -185,18 +185,17 @@
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <span
-                                        class="text-uppercase text-sm-center text-xs-center text-lg-start my-2 mb-3 ms-2">Coming
+                                    <span class="text-uppercase">Coming
                                         soon
                                         <i class="fa fa-fire text-warning ms-1" aria-hidden="true"></i>
                                     </span>
-                                    <h5 class="card-title lh-base py-3">RoboCop Rogue City</h5>
+                                    <h5 class="card-title lh-base text-md-start py-3">RoboCop Rogue City</h5>
 
                                     <p class="card-text">Armed with your trusty Auto-9,
                                         factory-built strength, years
                                         of experience on the force and a variety of tools at your disposal, you will
                                         fight forces seeking to destroy the city you call home in an all new
-                                        first-person, explosive hunt for the truth</p>
+                                        first-person, explosive hunt for the truth.</p>
                                 </div>
                             </div>
                         </div>
@@ -214,7 +213,7 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <span
-                                        class="text-uppercase text-sm-center text-xs-center text-lg-start my-2 mb-3 ms-2">Coming
+                                        class="text-uppercase text-sm-center text-xs-center text-lg-start my-2 mb-3">Coming
                                         soon
                                         <i class="fa fa-fire text-warning ms-1" aria-hidden="true"></i>
                                     </span>
@@ -239,7 +238,7 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <span
-                                        class="text-uppercase text-sm-center text-xs-center text-lg-start my-2 mb-3 ms-2">Coming
+                                        class="text-uppercase text-sm-center text-xs-center text-lg-start my-2 mb-3">Coming
                                         soon
                                         <i class="fa fa-fire text-warning ms-1" aria-hidden="true"></i>
                                     </span>

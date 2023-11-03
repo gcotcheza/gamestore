@@ -4,7 +4,6 @@ $body-bg: #181735;
 // Global colors
 $brand-secondary: #262553 !default;
 $brand-primary: #0082ff !default;
-// $brand-primary: #984ffd !default;
 $brand-success: #5be96a !default;
 $brand-warning: #f57969 !default;
 $brand-danger: $brand-primary !default;
@@ -36,12 +35,12 @@ $font-size-base: 0.9rem;
 $line-height-base: 1.6;
 
 //** Global font style & sizes
-// $font-family-base: "Open Sans", helvetica, arial, sans-serif !default;
 $font-family-header: "Poppins", helvetica, arial, sans-serif !default;
-// $base-font-size: 1rem !default;
 
 // buttons
 $btn-link-hover-color: $brand-primary;
+$btn-active-border-shade-amount: 0%;
+$btn-active-border-tint-amount: 0%;
 
 $padding-small: 1.25rem !default; // 20px
 
@@ -106,5 +105,9 @@ $spacers: (
     8: $spacer * 10,
 ) !default;
 
-// Collapse
-// $transition-collapse: height ease-out 300ms;
+// Offcanvas
+$offcanvas-horizontal-width: 500px;
+$offcanvas-vertical-height: 30vh;
+$offcanvas-transition-duration: 0.3s;
+$offcanvas-bg-color: #353467;
+$offcanvas-color: $gray-300;
