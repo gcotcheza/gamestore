@@ -1,66 +1,39 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Game Store
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Overview
 
-## About Laravel
+This project serves as a showcase within a larger portfolio, focusing on a responsive game shop application. It's designed with future back-end integration in mind using Laravel, leveraging Bootstrap 5 for responsive design, SCSS for advanced styling, and Webpack Mix for efficient asset compilation.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Current Features
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- **Responsive Design**: Built with Bootstrap 5 and SCSS, the application adapts seamlessly across devices, implementing mobile-first design principles.
+- **Three Main Menus**: Home, Shop, and Contact.
+  - **Home**: Welcomes users and introduces the game shop.
+  - **Shop**: Displays games in a card layout, with detailed pages for each game accessible by clicking on the cards.
+  - **Contact**: Lists contact information and includes a form for inquiries.
+- **Game Details**: Offers comprehensive details on each game, including images displayed via a carousel, and information about the publisher, genre, developer, platform, release dates, and modes.
+- **Basket Feature**: Enables games to be added to a shopping basket, setting the stage for future e-commerce functionalities.
+- **SCSS for Styling**: Utilizes SCSS to structure and customize the application's styles effectively.
+- **Webpack Mix**: Employs Webpack Mix for streamlined asset management, enhancing the development process and performance optimization.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Future Developments
 
-## Learning Laravel
+- **Back-End Integration with Laravel**: Aimed at incorporating dynamic content, API'a integrtion, database interactions, and a fully operational e-commerce system.
+- **Enhanced User Experience**: Plans to introduce interactive elements and authentication features to enrich the user's journey.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Setup
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+This showcase highlights front-end development achievements and is prepped for eventual Laravel integration. SCSS and Webpack Mix play crucial roles in the project's styling and asset management.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+## Project Status
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+This project is actively being developed with a focus on front-end capabilities, utilizing Bootstrap 5, SCSS, and Webpack Mix. Laravel will be introduced for back-end development in the upcoming phases.
 
-### Premium Partners
+## Contact and Contribution
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+As a personal showcase, this project is currently not open for external contributions. Feedback and suggestions are always appreciated.
 
-## Contributing
+- **Contact**: [ghie.cotcheza@gmail.com]
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
