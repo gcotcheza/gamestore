@@ -10,7 +10,7 @@ This project serves as a showcase within a larger portfolio, focusing on a respo
 - **Three Main Menus**: Home, Shop, and Contact.
   - **Home**: Welcomes users and introduces the game shop.
   - **Shop**: Displays games in a card layout, with detailed pages for each game accessible by clicking on the cards.
-  - **Contact**: Lists contact information and includes a form for inquiries.
+  - **Contact**: Shows contact information and includes a form for inquiries.
 - **Game Details**: Offers comprehensive details on each game, including images displayed via a carousel, and information about the publisher, genre, developer, platform, release dates, and modes.
 - **Basket Feature**: Enables games to be added to a shopping basket, setting the stage for future e-commerce functionalities.
 - **SCSS for Styling**: Utilizes SCSS to structure and customize the application's styles effectively.
@@ -18,12 +18,12 @@ This project serves as a showcase within a larger portfolio, focusing on a respo
 
 ## Future Developments
 
-- **Back-End Integration with Laravel**: Aimed at incorporating dynamic content, API'a integrtion, database interactions, and a fully operational e-commerce system.
+- **Back-End Integration with Laravel**: Aimed at incorporating dynamic content, API'a integration, database interactions, and a fully operational e-commerce system.
 - **Enhanced User Experience**: Plans to introduce interactive elements and authentication features to enrich the user's journey.
 
 ## Setup
 
-This showcase highlights front-end development achievements and is prepped for eventual Laravel integration. SCSS and Webpack Mix play crucial roles in the project's styling and asset management.
+This showcase highlights front-end development achievements and is prepped for eventual back-end integration using Laravel. SCSS and Webpack Mix play crucial roles in the project's styling and asset management.
 
 
 ## Project Status
