@@ -54,13 +54,20 @@ return [
     'channels' => [
         'stack' => [
             'driver'            => 'stack',
-            'channels'          => ['single'],
+            'channels'          => ['single', 'test'],
             'ignore_exceptions' => false,
         ],
 
         'single' => [
             'driver'               => 'single',
             'path'                 => storage_path('logs/laravel.log'),
+            'level'                => env('LOG_LEVEL', 'debug'),
+            'replace_placeholders' => true,
+        ],
+
+        'single' => [
+            'driver'               => 'single',
+            'path'                 => storage_path('logs/test.log'),
             'level'                => env('LOG_LEVEL', 'debug'),
             'replace_placeholders' => true,
         ],
