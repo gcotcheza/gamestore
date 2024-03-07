@@ -10,6 +10,7 @@ This project serves as a showcase within a larger portfolio, focusing on a respo
 - **Three Main Menus**: Home, Shop, and Contact.
   - **Home**: Welcomes users and introduces the game shop.
   - **Shop**: Displays games in a card layout, with detailed pages for each game accessible by clicking on the cards.
+  - **Coming Soon**: Offers teasers and bits of information about future game releases, keeping users engaged and anticipating new additions.
   - **Contact**: Shows contact information and includes a form for inquiries.
 - **Game Details**: Offers comprehensive details on each game, including images displayed via a carousel, and information about the publisher, genre, developer, platform, release dates, and modes.
 - **Basket Feature**: Enables games to be added to a shopping basket, setting the stage for future e-commerce functionalities.
