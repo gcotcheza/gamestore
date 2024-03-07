@@ -7,7 +7,7 @@ This project serves as a showcase within a larger portfolio, focusing on a respo
 ## Current Features
 
 - **Responsive Design**: Built with Bootstrap 5 and SCSS, the application adapts seamlessly across devices, implementing mobile-first design principles.
-- **Three Main Menus**: Home, Shop, and Contact.
+- **Three Main Menus**: Home, Shop, Coming Soon and Contact.
   - **Home**: Welcomes users and introduces the game shop.
   - **Shop**: Displays games in a card layout, with detailed pages for each game accessible by clicking on the cards.
   - **Coming Soon**: Offers teasers and bits of information about future game releases, keeping users engaged and anticipating new additions.
